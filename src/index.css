@@ -1,0 +1,16 @@
+/* Correct Order */
+
+/* Import Tailwind CSS utilities first */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Followed by other statements, such as font imports */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* Rest of your styles */
+/* ... */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
